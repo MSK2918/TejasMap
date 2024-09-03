@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/id_map"
+        android:layout_width="356dp"
+        android:layout_height="383dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="123dp" />
+
+    <android.widget.ZoomControls
+        android:id="@+id/zoomControls"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/id_map"
+        android:layout_alignTop="@+id/id_map"
+        android:layout_alignEnd="@+id/id_map"
+        android:layout_alignBottom="@+id/id_map"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="327dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="558dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#FFFFFF"
+        android:text="Welcome To EzMaps"
+        android:textAlignment="center"
+        android:textColor="#E40D0C0C"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+</RelativeLayout>
